@@ -1,0 +1,16 @@
+"_EditPattern" = "%1$@ v %2$@";
+"_EditMultiple" = "Upravit položky LinkBack";
+"_EditNone" = "Upravit položku LinkBack";
+"_Edit" = "Upravit";
+"_Refresh" = "Obnovit";
+
+/* Strings used for the LinkBack App Not Found panel */
+"_AppNotFoundTitle" = "Zakládající aplikace „%@“ nebyla nalezena.";
+
+"_AppNotFoundMessageWithURL" = "Ujistěte se, že je aplikace nainstalovaná k použití v adresáři Applications (Aplikace). Nemáte-li tento program, můžete zvolit „Stáhnout aplikaci“ ke stažení přes internet.";
+
+"_AppNotFoundMessageNoURL" = "Ujistěte se, že je aplikace nainstalovaná k použití v adresáři Applications (Aplikace).";
+
+"_OK" = "OK";
+
+"_GetApplication" = "Stáhnout aplikaci";

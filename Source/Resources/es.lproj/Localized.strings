@@ -1,0 +1,16 @@
+"_EditPattern" = "%1$@ en %2$@";
+"_EditMultiple" = "Editar elementos LinkBack";
+"_EditNone" = "Editar elemento LinkBack";
+"_Edit" = "Edición";
+"_Refresh" = "Renovar";
+
+/* Strings used for the LinkBack App Not Found panel */
+"_AppNotFoundTitle" = "La aplicación del creador «%@» no se pudo encontrar.";
+
+"_AppNotFoundMessageWithURL" = "Asegúrese que esta aplicación se encuentra instalada en su carpeta Aplicaciones para usarla. Si usted no tiene este software, puede seleccionar «Obtener Aplicación» para descargarlo.";
+
+"_AppNotFoundMessageNoURL" = "Asegúrese que esta aplicación se encuentra instalada en su carpeta Aplicaciones para usarla.";
+
+"_OK" = "OK";
+
+"_GetApplication" = "Obtener aplicación";

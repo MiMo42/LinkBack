@@ -1,0 +1,16 @@
+"_EditPattern" = "%1$@ i %2$@";
+"_EditMultiple" = "Rediger LinkBack emner";
+"_EditNone" = "Rediger LinkBack emne";
+"_Edit" = "Rediger";
+"_Refresh" = "Opdater";
+
+/* Strings used for the LinkBack App Not Found panel */
+"_AppNotFoundTitle" = "Oprettelsesprogrammet »%@« kunne ikke findes.";
+
+"_AppNotFoundMessageWithURL" = "Kontroller at programmet er installeret i mappen Programmer for at anvende det. Hvis du ikke har dette program, kan du vælge »Hent program« for at downloade det.";
+
+"_AppNotFoundMessageNoURL" = "Kontroller at programmet er installeret i mappen Programmer for at anvende det.";
+
+"_OK" = "OK";
+
+"_GetApplication" = "Hent program";

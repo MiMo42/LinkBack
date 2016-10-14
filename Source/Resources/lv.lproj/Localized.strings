@@ -1,0 +1,16 @@
+"_EditPattern" = "%1$@ iekš %2$@";
+"_EditMultiple" = "Rediģēt LInkBack vienumus";
+"_EditNone" = "Rediģēt LinkBack vienumu";
+"_Edit" = "Rediģēt";
+"_Refresh" = "Atsvaidzināt";
+
+/* Strings used for the LinkBack App Not Found panel */
+"_AppNotFoundTitle" = "Veidotājprogramma ”%@‟ netika atrasta.";
+
+"_AppNotFoundMessageWithURL" = "Pārliecinieties, vai šī programma ir instalēta mapē Applications. Ja tās tur nav, izvēlieties ”Iegūt programmu‟, lai to lejupielādētu.";
+
+"_AppNotFoundMessageNoURL" = "Pārliecinieties, vai šī programma ir instalēta mapē Applications.";
+
+"_OK" = "Labi";
+
+"_GetApplication" = "Iegūt programmu";

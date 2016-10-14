@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "LinkBack";
+NSHumanReadableCopyright = "© 2004-2007 Nisus, Omni Development und andere Entwickler";

@@ -1,0 +1,16 @@
+"_EditPattern" = "%1$@ i %2$@";
+"_EditMultiple" = "Redigera LinkBack-objekt";
+"_EditNone" = "Redigera LinkBack-objekt";
+"_Edit" = "Redigera";
+"_Refresh" = "Uppdatera";
+
+/* Strings used for the LinkBack App Not Found panel */
+"_AppNotFoundTitle" = "Kunde inte hitta ursprungsprogrammet ”%@”.";
+
+"_AppNotFoundMessageWithURL" = "Kontrollera att programmet är installerat i programmappen. Saknar du programvaran kan du hämta det genom att välja ”Hämta program”.";
+
+"_AppNotFoundMessageNoURL" = "Kontrollera att programmet är installerat i programmappen.";
+
+"_OK" = "OK";
+
+"_GetApplication" = "Hämta program";

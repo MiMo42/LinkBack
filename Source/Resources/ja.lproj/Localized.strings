@@ -1,0 +1,16 @@
+"_EditPattern" = "%2$@ の %1$@";
+"_EditMultiple" = "リンクバック項目を編集";
+"_EditNone" = "リンクバック項目を編集";
+"_Edit" = "編集";
+"_Refresh" = "更新";
+
+/* Strings used for the LinkBack App Not Found panel */
+"_AppNotFoundTitle" = "アプリケーション「“%@”」は見つかりませんでした。";
+
+"_AppNotFoundMessageWithURL" = "アプリケーションが「アプリケーション」フォルダにインストールされているか確認して下さい。アプリケーションがない場合「ダウンロード」を選んでダウンロードして下さい。";
+
+"_AppNotFoundMessageNoURL" = "アプリケーションが「アプリケーション」フォルダにインストールされているか確認して下さい。";
+
+"_OK" = "OK";
+
+"_GetApplication" = "ダウンロード";

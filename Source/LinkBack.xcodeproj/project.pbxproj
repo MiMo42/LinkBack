@@ -7,41 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129CD80F18053D92004D85A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 129CD80B18053D92004D85A6 /* InfoPlist.strings */; };
+		129CD81018053D92004D85A6 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 129CD80D18053D92004D85A6 /* Localized.strings */; };
 		203AFD7B0687DA7000B08189 /* LinkBack.h in Headers */ = {isa = PBXBuildFile; fileRef = 203AFD770687DA7000B08189 /* LinkBack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		203AFD7C0687DA7000B08189 /* LinkBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 203AFD780687DA7000B08189 /* LinkBack.m */; };
 		203AFD7D0687DA7000B08189 /* LinkBackServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 203AFD790687DA7000B08189 /* LinkBackServer.h */; settings = {ATTRIBUTES = (); }; };
 		203AFD7E0687DA7000B08189 /* LinkBackServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 203AFD7A0687DA7000B08189 /* LinkBackServer.m */; };
-		20E80E6507F2116B0060ED13 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20E80E6307F2116B0060ED13 /* Localized.strings */; };
-		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		12209A8A1B60CC7F008F9E68 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = Resources/pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12209A8B1B60CC7F008F9E68 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = Resources/pl.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD80C18053D92004D85A6 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD80E18053D92004D85A6 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD81118054010004D85A6 /* cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = cs; path = Resources/cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD81218054010004D85A6 /* cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = cs; path = Resources/cs.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD8131805401D004D85A6 /* da */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = da; path = Resources/da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD8141805401D004D85A6 /* da */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = da; path = Resources/da.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD81518054029004D85A6 /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = Resources/de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD81618054029004D85A6 /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = Resources/de.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD8171805402F004D85A6 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD8181805402F004D85A6 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD81918054035004D85A6 /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr; path = Resources/fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD81A18054035004D85A6 /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr; path = Resources/fr.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD81B1805403B004D85A6 /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = it; path = Resources/it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD81C1805403B004D85A6 /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = it; path = Resources/it.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD81F18054045004D85A6 /* lv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = lv; path = Resources/lv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD82018054045004D85A6 /* lv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = lv; path = Resources/lv.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD8211805404A004D85A6 /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = nl; path = Resources/nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD8221805404A004D85A6 /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = nl; path = Resources/nl.lproj/Localized.strings; sourceTree = "<group>"; };
+		129CD83C18054078004D85A6 /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = Resources/sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129CD83D18054078004D85A6 /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = Resources/sv.lproj/Localized.strings; sourceTree = "<group>"; };
 		203AFD770687DA7000B08189 /* LinkBack.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LinkBack.h; sourceTree = "<group>"; };
 		203AFD780687DA7000B08189 /* LinkBack.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LinkBack.m; sourceTree = "<group>"; };
 		203AFD790687DA7000B08189 /* LinkBackServer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LinkBackServer.h; sourceTree = "<group>"; };
 		203AFD7A0687DA7000B08189 /* LinkBackServer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LinkBackServer.m; sourceTree = "<group>"; };
-		20E80E6407F2116B0060ED13 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localized.strings; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* LinkBack_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkBack_Prefix.pch; sourceTree = "<group>"; };
-		4A8BBBE708AB131E00C5998B /* Omni-Application-Coverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Application-Coverage.xcconfig"; sourceTree = "<group>"; };
-		4A8BBBE808AB131E00C5998B /* Omni-Application-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Application-Debug.xcconfig"; sourceTree = "<group>"; };
-		4A8BBBE908AB131E00C5998B /* Omni-Application-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Application-Release.xcconfig"; sourceTree = "<group>"; };
-		4A8BBBEA08AB131E00C5998B /* Omni-Framework-Coverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Framework-Coverage.xcconfig"; sourceTree = "<group>"; };
-		4A8BBBEB08AB131E00C5998B /* Omni-Framework-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Framework-Debug.xcconfig"; sourceTree = "<group>"; };
-		4A8BBBEC08AB131E00C5998B /* Omni-Framework-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Framework-Release.xcconfig"; sourceTree = "<group>"; };
-		4A8BBBED08AB131E00C5998B /* Omni-Tool-Coverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Tool-Coverage.xcconfig"; sourceTree = "<group>"; };
-		4A8BBBEE08AB131E00C5998B /* Omni-Tool-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Tool-Debug.xcconfig"; sourceTree = "<group>"; };
-		4A8BBBEF08AB131E00C5998B /* Omni-Tool-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Tool-Release.xcconfig"; sourceTree = "<group>"; };
-		4ADFF50C08AB31B200281C2B /* Omni-Bundle-Coverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Bundle-Coverage.xcconfig"; sourceTree = "<group>"; };
-		4ADFF50D08AB31B200281C2B /* Omni-Bundle-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Bundle-Debug.xcconfig"; sourceTree = "<group>"; };
-		4ADFF50E08AB31B200281C2B /* Omni-Bundle-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Bundle-Release.xcconfig"; sourceTree = "<group>"; };
-		4ADFF50F08AB31B200281C2B /* Omni-Global-Coverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Global-Coverage.xcconfig"; sourceTree = "<group>"; };
-		4ADFF51008AB31B200281C2B /* Omni-Global-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Global-Debug.xcconfig"; sourceTree = "<group>"; };
-		4ADFF51108AB31B200281C2B /* Omni-Global-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Omni-Global-Release.xcconfig"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* LinkBack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinkBack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +74,6 @@
 		0867D691FE84028FC02AAC07 /* LiveLink */ = {
 			isa = PBXGroup;
 			children = (
-				4A8BBBE608AB131E00C5998B /* Configurations */,
 				4A8BBBE308AB130800C5998B /* Source */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
@@ -89,9 +93,8 @@
 		089C1665FE841158C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8DC2EF5A0486A6940098B216 /* Info.plist */,
-				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
-				20E80E6307F2116B0060ED13 /* Localized.strings */,
+				129CD80B18053D92004D85A6 /* InfoPlist.strings */,
+				129CD80D18053D92004D85A6 /* Localized.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -135,35 +138,13 @@
 		4A8BBBE308AB130800C5998B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
 			);
 			name = Source;
 			sourceTree = "<group>";
-		};
-		4A8BBBE608AB131E00C5998B /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				4A8BBBE708AB131E00C5998B /* Omni-Application-Coverage.xcconfig */,
-				4A8BBBE808AB131E00C5998B /* Omni-Application-Debug.xcconfig */,
-				4A8BBBE908AB131E00C5998B /* Omni-Application-Release.xcconfig */,
-				4ADFF50C08AB31B200281C2B /* Omni-Bundle-Coverage.xcconfig */,
-				4ADFF50D08AB31B200281C2B /* Omni-Bundle-Debug.xcconfig */,
-				4ADFF50E08AB31B200281C2B /* Omni-Bundle-Release.xcconfig */,
-				4A8BBBEA08AB131E00C5998B /* Omni-Framework-Coverage.xcconfig */,
-				4A8BBBEB08AB131E00C5998B /* Omni-Framework-Debug.xcconfig */,
-				4A8BBBEC08AB131E00C5998B /* Omni-Framework-Release.xcconfig */,
-				4ADFF50F08AB31B200281C2B /* Omni-Global-Coverage.xcconfig */,
-				4ADFF51008AB31B200281C2B /* Omni-Global-Debug.xcconfig */,
-				4ADFF51108AB31B200281C2B /* Omni-Global-Release.xcconfig */,
-				4A8BBBED08AB131E00C5998B /* Omni-Tool-Coverage.xcconfig */,
-				4A8BBBEE08AB131E00C5998B /* Omni-Tool-Debug.xcconfig */,
-				4A8BBBEF08AB131E00C5998B /* Omni-Tool-Release.xcconfig */,
-			);
-			name = Configurations;
-			path = ../../../OmniGroup/Configurations;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -205,7 +186,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0800;
 			};
 			buildConfigurationList = 4A8BBBD608AB123000C5998B /* Build configuration list for PBXProject "LinkBack" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -216,6 +197,17 @@
 				Japanese,
 				French,
 				German,
+				en,
+				cs,
+				da,
+				de,
+				es,
+				fr,
+				it,
+				lv,
+				nl,
+				sv,
+				pl,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* LiveLink */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -232,8 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
-				20E80E6507F2116B0060ED13 /* Localized.strings in Resources */,
+				129CD81018053D92004D85A6 /* Localized.strings in Resources */,
+				129CD80F18053D92004D85A6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +244,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+		129CD80B18053D92004D85A6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C1667FE841158C02AAC07 /* English */,
+				129CD80C18053D92004D85A6 /* en */,
+				129CD81118054010004D85A6 /* cs */,
+				129CD8131805401D004D85A6 /* da */,
+				129CD81518054029004D85A6 /* de */,
+				129CD8171805402F004D85A6 /* es */,
+				129CD81918054035004D85A6 /* fr */,
+				129CD81B1805403B004D85A6 /* it */,
+				129CD81F18054045004D85A6 /* lv */,
+				129CD8211805404A004D85A6 /* nl */,
+				129CD83C18054078004D85A6 /* sv */,
+				12209A8A1B60CC7F008F9E68 /* pl */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		20E80E6307F2116B0060ED13 /* Localized.strings */ = {
+		129CD80D18053D92004D85A6 /* Localized.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20E80E6407F2116B0060ED13 /* English */,
+				129CD80E18053D92004D85A6 /* en */,
+				129CD81218054010004D85A6 /* cs */,
+				129CD8141805401D004D85A6 /* da */,
+				129CD81618054029004D85A6 /* de */,
+				129CD8181805402F004D85A6 /* es */,
+				129CD81A18054035004D85A6 /* fr */,
+				129CD81C1805403B004D85A6 /* it */,
+				129CD82018054045004D85A6 /* lv */,
+				129CD8221805404A004D85A6 /* nl */,
+				129CD83D18054078004D85A6 /* sv */,
+				12209A8B1B60CC7F008F9E68 /* pl */,
 			);
 			name = Localized.strings;
 			sourceTree = "<group>";
@@ -273,58 +285,141 @@
 /* Begin XCBuildConfiguration section */
 		4A8BBBD308AB123000C5998B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A8BBBEB08AB131E00C5998B /* Omni-Framework-Debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = org.linkbackproject.LinkBack;
 				PRODUCT_NAME = LinkBack;
 			};
 			name = Debug;
 		};
 		4A8BBBD408AB123000C5998B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A8BBBEC08AB131E00C5998B /* Omni-Framework-Release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = org.linkbackproject.LinkBack;
 				PRODUCT_NAME = LinkBack;
 			};
 			name = Release;
 		};
 		4A8BBBD508AB123000C5998B /* Coverage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A8BBBEA08AB131E00C5998B /* Omni-Framework-Coverage.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = org.linkbackproject.LinkBack;
 				PRODUCT_NAME = LinkBack;
 			};
 			name = Coverage;
 		};
 		4A8BBBD708AB123000C5998B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ADFF51008AB31B200281C2B /* Omni-Global-Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SKIP_INSTALL = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
 		};
 		4A8BBBD808AB123000C5998B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ADFF51108AB31B200281C2B /* Omni-Global-Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SKIP_INSTALL = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
 		4A8BBBD908AB123000C5998B /* Coverage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ADFF50F08AB31B200281C2B /* Omni-Global-Coverage.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SKIP_INSTALL = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Coverage;
 		};

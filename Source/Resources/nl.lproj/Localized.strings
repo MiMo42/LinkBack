@@ -1,0 +1,16 @@
+"_EditPattern" = "%1$@ in %2$@";
+"_EditMultiple" = "Wijzig LinkBack-onderdelen";
+"_EditNone" = "Wijzig LinkBack-onderdeel";
+"_Edit" = "Wijzig";
+"_Refresh" = "Werk weergave bij";
+
+/* Strings used for the LinkBack App Not Found panel */
+"_AppNotFoundTitle" = "Het programma “%@” dat het gemaakt heeft, kan niet worden gevonden.";
+
+"_AppNotFoundMessageWithURL" = "Controleer voor gebruik of dit programma is geïnstalleerd in uw map Programma's. Als u dit programma niet hebt, kunt u “Haal programma op” selecteren om het te downloaden.";
+
+"_AppNotFoundMessageNoURL" = "Controleer voor gebruik of dit programma is geïnstalleerd in uw map Programma's.";
+
+"_OK" = "OK";
+
+"_GetApplication" = "Haal programma op";
