@@ -208,7 +208,7 @@ static void LinkBackRunAppNotFoundPanel(NSString* appName, NSURL* url)
         return ret;
 
 	// Try to connect
-	ret = [NSConnection rootProxyForConnectionWithRegisteredName: serverName host: nil] ;
+	ret = [NSConnection rootProxyForConnectionWithRegisteredName: serverName host: @"localhost"] ;
 	BOOL connect = YES ;
 
     // if launchIfNeeded, and the connection was not available, try to launch.
@@ -251,7 +251,7 @@ static void LinkBackRunAppNotFoundPanel(NSString* appName, NSURL* url)
 	if (connect && (nil==ret)) {
 		NSTimeInterval tryMark = [NSDate timeIntervalSinceReferenceDate] ;
 		do {
-			ret = [NSConnection rootProxyForConnectionWithRegisteredName: serverName host: nil] ;
+			ret = [NSConnection rootProxyForConnectionWithRegisteredName: serverName host: @"localhost"] ;
 		} while ((!ret) && (([NSDate timeIntervalSinceReferenceDate]-tryMark)<10)) ;
 		
 	}
