@@ -208,6 +208,8 @@ NSMutableDictionary* keyedLinkBacks = nil ;
 
 @implementation LinkBack
 
+@synthesize delegate;
+
 + (void)initialize
 {
     static BOOL inited = NO ;

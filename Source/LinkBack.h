@@ -121,6 +121,9 @@ BOOL LinkBackDataBelongsToActiveApplication(id data) ;
     NSString* key ;
 }
 
+// (MM) for special purposes as we may want to change delegate (be careful!)
+@property (assign) id<LinkBackClientDelegate> delegate;
+
 + (LinkBack*)activeLinkBackForItemKey:(id)key ;
 // works for both the client and server side.  Valid only while a link is connected.
 
